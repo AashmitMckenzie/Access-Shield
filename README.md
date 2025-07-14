@@ -89,12 +89,4 @@ If you use this work, please cite:
 * **Malay Doshi** (Lead)
 * **Gauri Deodghare** (Lead)
 * Prof. Ranjeet Bidwe (Mentor)
-* Dr. Sonali Kothari (Mentor)---
-
-
-> 🔐 *CyberShield empowers the next generation of web security through data-driven BAC detection.*
-
-```
-
-Let me know if you'd like this styled with badges, links, or auto-generated documentation.
-```
+* Dr. Sonali Kothari (Mentor)
