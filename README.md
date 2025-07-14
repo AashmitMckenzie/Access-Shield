@@ -28,7 +28,9 @@
 
 2. **Install requirements**:
 
-3. **Run attack simulation**:
+    install required modules and packages
+   
+4. **Run attack simulation**:
 
    follow the steps in -> instructions to run the script.txt
    
