@@ -1,0 +1,29 @@
+activate vritual environment
+source ~/my_venv/bin/activate
+
+remove all previous dockers
+docker stop $(docker ps -aq) && docker rm $(docker ps -aq)
+
+remove old images
+docker rmi $(docker images -q)
+
+Juice shop
+docker pull bkimminich/juice-shop
+docker run -d -p 3000:3000 --name juice_shop bkimminich/juice-shop
+
+DVWA
+docker pull vulnerables/web-dvwa
+docker run -d -p 8081:80 --name dvwa vulnerables/web-dvwa
+
+Webgoat
+docker pull webgoat/webgoat-8.0
+docker run -d -p 8080:8080 --name webgoat webgoat/webgoat-8.0
+
+Verify
+docker ps
+
+verify if the address in the script is correct or not 
+
+Run script
+python bac_attack_automation.py
+
