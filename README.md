@@ -1,6 +1,3 @@
-Here is the complete GitHub `README.md` code based on your uploaded research paper, datasets, and scripts:
-
-````markdown
 # CyberShield: AI-Powered Broken Access Control Detection and Mitigation
 
 🚨 **Broken Access Control (BAC)** is consistently ranked as the #1 web application vulnerability by OWASP. This project introduces **CyberShield**, a machine learning-based detection and mitigation framework tailored for real-time identification of BAC vulnerabilities.
@@ -18,21 +15,7 @@ Here is the complete GitHub `README.md` code based on your uploaded research pap
 ## 📚 Research Paper
 
 📄 Published: *CyberShield: AI Powered Broken Access Control Detection and Mitigation*  
-🔗 Dataset Hosted: [Mendeley Data Repository](https://data.mendeley.com) *(search: "CyberShield BAC Dataset")*  
-📘 Full Text: Included as `BAC_JIoS.docx`
-
-## 📂 Repository Structure
-
-```bash
-├── bac_attack_automation.py         # Script to simulate BAC attacks and log access behavior
-├── get_ml_processed_features.py     # Preprocess features for ML training
-├── model_training.ipynb             # Baseline ML models training notebook
-├── adv_model_training.ipynb         # Advanced training with behavior-rich features
-├── resource_access_patterns.json    # Global access/failure statistics
-├── user_behavior_profiles.json      # Detailed per-user behavior data
-├── instructions to run the script   # Simple text file for running scripts locally
-└── BAC_JIoS.docx                    # Research paper documentation
-````
+🔗 Dataset Hosted: [Mendeley Data Repository](https://data.mendeley.com/drafts/vvr4w36bn6) 
 
 ## ⚙️ Setup Instructions
 
@@ -45,23 +28,21 @@ Here is the complete GitHub `README.md` code based on your uploaded research pap
 
 2. **Install requirements**:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 3. **Run attack simulation**:
 
+   follow the steps in -> instructions to run the script.txt
+   
    ```bash
    python bac_attack_automation.py
    ```
 
-4. **Preprocess data for ML**:
+5. **Preprocess data for ML**:
 
    ```bash
    python get_ml_processed_features.py
    ```
 
-5. **Train models**:
+6. **Train models**:
    Open `model_training.ipynb` or `adv_model_training.ipynb` in Jupyter Notebook or VS Code.
 
 ## 🧪 Features Engineered
@@ -91,7 +72,7 @@ Here is the complete GitHub `README.md` code based on your uploaded research pap
 ## 📊 Dataset Overview
 
 * 📦 Format: `.csv` (request features), `.json` (user behaviors, resource patterns)
-* 🧬 Samples: Thousands of annotated entries
+* 🧬 Samples: 1 million (can be increased based on need) annotated entries
 * 🔍 Features: `hour_of_day`, `geo_country`, `role`, `endpoint`, `access_expected`, `attack_detected`, etc.
 
 ## 📎 Citation
@@ -103,19 +84,11 @@ If you use this work, please cite:
 ## 🧑‍💻 Authors
 
 * **Aashmit McKenzie** (Lead)
-* Malay Doshi
-* Gauri Deodghare
-* Prof. Ranjeet Bidwe (Advisor)
-* Dr. Sonali Kothari (Mentor)
-* Pooja Bagane, Ankur Goyal (Contributors)
+* **Malay Doshi** (Lead)
+* **Gauri Deodghare** (Lead)
+* Prof. Ranjeet Bidwe (Mentor)
+* Dr. Sonali Kothari (Mentor)---
 
----
-
-## 📬 Contact
-
-📧 Reach out via LinkedIn or email for dataset access, research collaborations, or inquiries.
-
----
 
 > 🔐 *CyberShield empowers the next generation of web security through data-driven BAC detection.*
 
